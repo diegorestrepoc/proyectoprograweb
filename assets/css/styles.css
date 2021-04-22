@@ -1,0 +1,38 @@
+.footer {
+    background-color: #343a40;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    background-color: #343a40;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+body {
+    background-color: white;
+}
+
+.card {
+    background-color: white;
+    color: black;
+}
+
+.body-container {
+    background-color: white;
+}
+
+.btn-primary:focus, .btn-primary.focus, .btn-primary:hover{
+    color: grey;
+    background-color: grey;
+}

@@ -14,209 +14,252 @@
     <!-- Cargar CSS propios -->
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <title>Manejo de tablas</title>
+    <title>Hardware & Partz. Encuentra todo lo que necesitas para tu Oficina</title>
 </head>
 <body>
-
-    <!--Navbar-->
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <img src="assets/img/logo.png" alt="LOGO" width="80px" height="80px">
-<button class="navbar-toggler" type="button" data-toggle="collapse"
- data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-  aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-        <li class="nav-item active">
-            
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
+    <style>   
+    producto {
         
-        <li class="nav-item">
-            <a class="nav-link" href="cotizacion.html">Cotización</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contactanos!</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="conocenos.html">Nosotros</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">n/a</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Escritorios/SillasGamer.html">Escritorios/Sillas Gamer</a>
-        </li>
-    </ul>
-</div>
-<form class="d-flex">
-    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success" type="submit">Search</button>
-  </form>
+        column-count:4;
+        column-gap: 3em;
+        column-rule: 1px solid #bbb;
+        column-width: 140px;
+    }
 
-</nav>
-<!--Fin navbar-->
+    </style>
 
-    <!--banners publicidad-->
-        <div class="float-md-left" style="margin-top: 3ch;" >
-            <a href="https://www.pccomponentes.com/ofertas-especiales?utm_source=789725&utm_medium=afi&utm_campaign=fanaticosdelhardware.com&awc=20982_1619037430_841224f91a00c7b1f65aeda08106b992&utm_term=deeplink&utm_content=">
-                <img src="assets/img/pcc_banner.jpg" alt="banner">
-            </a>
-        </div>
-        <div class="float-md-right" style="margin-top: 3ch;">
-            <a href="https://www.aussar.es/?aff=2&__cf_chl_jschl_tk__=083b16173afcda70fedd65345775c20e5f29eb10-1619037472-0-ASQz83D7fCskgtA_IJY6u7rdcoBn721PsjpEBaL18Ja2XwRBCbhfddEcOZ0eAVbe8ifazDygPSGvZzXC4i10Hp0j3WITi9wd82Jr6hz_OlHgaDL0fJBva01UskuRw5BN8lR3z3GirtBwdHow0jjEtyP024KNuL7LdPbzGtMxWX5IZSdXaJbgFkUxKdQt3rybTUt_yEVRrjXse4dntYCpT2JeXnDOcB5adnn3Fc-W5-yHimFqf8CkduGVaX4iHd9QbJRP1zooCjbSnQI-VlWGVfk2PnRqEU4ZCZ1FKbeKJOdZVzzd8z-xpAsO4srHESvk3XsuD_CfGPB4Rk35RUif_IDG3qsc6fNNEvNdWklejLbEsZpH78zYHlTrcz7hS08n9g">
-                <img src="assets/img/banner2.jpg" alt="banner">
-            </a>
-        </div>
-    <!--fin banners publicidad-->
+     <!--Navbar-->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="assets/img/logo.png" alt="LOGO" width="80px" height="80px">
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+     data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
     
-    <!--cotizacion-->
-        <div class="container mt-4 mb-4">
-            <h2>Cotización</h2>
-            <br>
-            <div class="table-responsive-md">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
                 
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Componente</th>
-                            <th>Producto</th>
-                            <th>Precio</th>
-                            <th>Eliminar</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Placa madre</td>
-                            <td><div class="form-group">
-                                <label for="placa" class="font-weight-bold"></label>
-                                <select name="placa" id="placa" class="form-control">
-                                    <option value="msi">MSI H310M PRO-VDH PLUS ($50.000)</option>
-                                    <option value="asus">ASUS PRIME A320M-K($53.000)</option>
-                                    <option value="asrock">ASROCK FM2A68M-DG3+($49.000)</option>
-                                </select>
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="cotizacion.html">Cotización</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contactanos!</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="conocenos.html">Nosotros</a>
+        </ul>
+    </div>
+    <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    
+    </nav>
 
-                            </div></td>
-                            <td>-</td>
-                            <td><div class="form-group">
-                                <input type="submit" class="btn btn-primary" id="registrar" value="Eliminar">
-                            </div></td>
-                        </tr>
-                        <tr>
-                            <td>Procesador</td>
-                            <td><div class="form-group">
-                                <label for="procesador" class="font-weight-bold"></label>
-                                <select name="procesador" id="procesador" class="form-control">
-                                    <option value="msi">I5-10400F ($140.000)</option>
-                                    <option value="asus">RYZEN 3 3200g($103.000)</option>
-                                    <option value="asrock">I3-9100 ($60.000)</option>
-                                    </select>
-                                </select>
 
-                            </div></td>
-                            <td>-</td>
-                            <td><div class="form-group">
-                                <input type="submit" class="btn btn-primary" id="registrar" value="Eliminar">
-                            </div></td>
-                            
-                        </tr>
-                        <tr>
-                            <td>Tarjeta de video</td>
-                            <td><div class="form-group">
-                                <label for="tarjeta" class="font-weight-bold"></label>
-                                <select name="tarjeta" id="tarjeta" class="form-control">
-                                    <option value="msi">GTX 1650 TI ($290.000)</option>
-                                    <option value="asus">GTX 3060($800.000)</option>
-                                    <option value="asrock">RX 580 ($300.000)</option>
-                                    </select>
-                                </select>
+ <!--LABEL Catalogo--> 
+    
+ <form enctype="text/plain">
+    <div class="card">
+        <div class="d.none d-md-block mt-4 mb-4"></div>
+        <div class="card-header">
+            <h2 class="card-title">Cotización
+            </h2>
+        </div>
+        <div class="card-body">
+        </div>
+    </div>
+              
+ <!--Fin -->
 
-                            </div></td>
-                            <td>-</td>
-                            <td><div class="form-group">
-                                <input type="submit" class="btn btn-primary" id="registrar" value="Eliminar">
-                            </div></td>
-                            
-                        </tr>
-                        <tr>
-                            <td>Ram</td>
-                            <td><div class="form-group">
-                                <label for="ram" class="font-weight-bold"></label>
-                                <select name="ram" id="ram" class="form-control">
-                                    <option value="msi">CRUCIAL 4GB ($19.000)</option>
-                                    <option value="asus">HYPERX 4GB($25.000)</option>
-                                    <option value="asrock">A-DATA 8GB ($35.000)</option>
-                                    </select>
-                                </select>
 
-                            </div></td>
-                            <td>-</td>
-                            <td><div class="form-group">
-                                <input type="submit" class="btn btn-primary" id="registrar" value="Eliminar">
-                            </div></td>
-                            
-                        </tr>
-                        <tr>
-                            <td>Fuente de poder</td>
-                            <td><div class="form-group">
-                                <label for="fuente" class="font-weight-bold"></label>
-                                <select name="fuente" id="fuente" class="form-control">
-                                    <option value="msi">GIGABYTE 550W ($40.000)</option>
-                                    <option value="asus">CORSAIR 450W ($44.000)</option>
-                                    <option value="asrock">GAMEMAX 650W ($45.000)</option>
-                                    </select>
-                                </select>
+ <!--cotizacion-->
 
-                            </div></td>
-                            <td>-</td>
-                            <td><div class="form-group">
-                                <input type="submit" class="btn btn-primary" id="eliminar" value="Eliminar">
-                            </div></td>
+ <producto>
+  
+ <div class="container margin">
+    <div class="table-responsive-md">
+        <div class="row ">    
+        <table class="table-responsive-sm table-responsive-md">
+            <thead>
+                <tr>
+                    <th>Componente</th>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Eliminar</th>
+
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Placa madre</td>
+                    <td><div class="form-group">
+                        <label for="placa" class="font-weight-bold"></label>
+                        <select name="placa" id="placa" class="form-control">
+                            <option value="msi">MSI H310M PRO-VDH PLUS ($50.000)</option>
+                            <option value="asus">ASUS PRIME A320M-K($53.000)</option>
+                            <option value="asrock">ASROCK FM2A68M-DG3+($49.000)</option>
+                        </select>
+
+                    </div></td>
+                    <td>-</td>
+                    <td><div class="form-group">
+                        <input type="submit" class="btn btn-primary" id="registrar" value="Eliminar">
+                    </div></td>
+                </tr>
+                <tr>
+                    <td>Procesador</td>
+                    <td><div class="form-group">
+                        <label for="procesador" class="font-weight-bold"></label>
+                        <select name="procesador" id="procesador" class="form-control">
+                            <option value="msi">I5-10400F ($140.000)</option>
+                            <option value="asus">RYZEN 3 3200g($103.000)</option>
+                            <option value="asrock">I3-9100 ($60.000)</option>
+                            </select>
+                        </select>
+
+                    </div></td>
+                    <td>-</td>
+                    <td><div class="form-group">
+                        <input type="submit" class="btn btn-primary" id="registrar" value="Eliminar">
+                    </div></td>
+                    
+                </tr>
+                <tr>
+                    <td>Tarjeta de video</td>
+                    <td><div class="form-group">
+                        <label for="tarjeta" class="font-weight-bold"></label>
+                        <select name="tarjeta" id="tarjeta" class="form-control">
+                            <option value="msi">GTX 1650 TI ($290.000)</option>
+                            <option value="asus">GTX 3060($800.000)</option>
+                            <option value="asrock">RX 580 ($300.000)</option>
+                            </select>
+                        </select>
+
+                    </div></td>
+                    <td>-</td>
+                    <td><div class="form-group">
+                        <input type="submit" class="btn btn-primary" id="registrar" value="Eliminar">
+                    </div></td>
+                    
+                </tr>
+                <tr>
+                    <td>Ram</td>
+                    <td><div class="form-group">
+                        <label for="ram" class="font-weight-bold"></label>
+                        <select name="ram" id="ram" class="form-control">
+                            <option value="msi">CRUCIAL 4GB ($19.000)</option>
+                            <option value="asus">HYPERX 4GB($25.000)</option>
+                            <option value="asrock">A-DATA 8GB ($35.000)</option>
+                            </select>
+                        </select>
+
+                    </div></td>
+                    <td>-</td>
+                    <td><div class="form-group">
+                        <input type="submit" class="btn btn-primary" id="registrar" value="Eliminar">
+                    </div></td>
+                    
+                </tr>
+                <tr>
+                    <td>Fuente de poder</td>
+                    <td><div class="form-group">
+                        <label for="fuente" class="font-weight-bold"></label>
+                        <select name="fuente" id="fuente" class="form-control">
+                            <option value="msi">GIGABYTE 550W ($40.000)</option>
+                            <option value="asus">CORSAIR 450W ($44.000)</option>
+                            <option value="asrock">GAMEMAX 650W ($45.000)</option>
+                            </select>
+                        </select>
+
+                    </div></td>
+                    <td>-</td>
+                    <td><div class="form-group">
+                        <input type="submit" class="btn btn-primary" id="eliminar" value="Eliminar">
+                    </div></td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Total:</td>
+                    <td> <div class="form-group">
+                        <input type="submit" class="btn btn-primary" id="comprar" value="Comprar">
+                    </div></td>
+
+                    
+
+                    
+                </tr>
+                </tbody>
+
+           
+
+
+            </table>
+
+                         
+
+
+                        <div class="col-md-2 mb-2 mt-2">
+                            <div class="card d-md-block">
+                                <img class="card-img-top" src="http://picsum.photos/600/600" alt="Imagen">
+                                <div class="card-body">
+                                    <h2 class="card-title" >Producto</h2>
+                                </div>
+                            </div>
+                        </div>
                             
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td>Total:</td>
-                            <td> <div class="form-group">
-                                <input type="submit" class="btn btn-primary" id="comprar" value="Comprar">
-                            </div></td>
-                            
-                        </tr>
-                        </tbody>
-                    </table>
-                <hr>
-            </div> 
-        </div>  
-    <!--Fin cotizacion-->
+                       
+                    </div>
+
+                </div>  
+
+
+                </div>
+                </producto>
+        <hr>
+
+    
+    </div> 
+
+<!--Fin cotizacion-->
+
+
+
+
 
     <!--Footer Section -->
-        <footer class="footer bg-dark mt-4 py-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-3 mt-3">
-    
-    
-                        <h6 class="display-6">Hardware & Partz Empresa</h6>                    
-                        <nav class="nav flex-column">                        
-                            <a class="nav-link" href="empresa.html">nuestra Empresa</a>
-                            <a class="nav-link" href="PostVenta.html">Servicio Post Venta</a>
-                            <a class="nav-link" href="TrabajaConNosotros.html">Trabaja con nosotros</a>
-                            <a class="nav-link" href="Sugerencias.html">Tus sugerencias nos ayudan a mejorar  </a>
-                           
-                        </nav>
-                    </div>
-                    
+    <footer class="footer bg-dark mt-2 py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 mt-3">
+
+
+                    <h6 class="display-6">Hardware & Partz Empresa</h6>                    
+                    <nav class="nav flex-column">                        
+                        <a class="nav-link" href="empresa.html">nuestra Empresa</a>
+                        <a class="nav-link" href="PostVenta.html">Servicio Post Venta</a>
+                        <a class="nav-link" href="TrabajaConNosotros.html">Trabaja con nosotros</a>
+                        <a class="nav-link" href="Sugerencias.html">Tus sugerencias nos ayudan a mejorar  </a>
+                       
+                    </nav>
                 </div>
-                <div class="col-sm-12 col-md-6 mt-4"></div>
-                <p class="main-footer">Comercializadora S.A., Rut N° xxxx domiciliada en calle xxx, Santiago, Chile. Represente legal: xxxx</p>
-                </div>
+                
             </div>
-        </footer>
+            <div class="col-sm-12 col-md-6 mt-4"></div>
+            <p class="main-footer">Comercializadora S.A., Rut N° xxxx domiciliada en calle xxx, Santiago, Chile. Represente legal: xxxx</p>
+            </div>
+        </div>
+    </footer>
     <!-- FIN Footer Section -->
-   
+
     <!-- Preacargar JS Boostrap al final del documento -->
     <!-- El orden de carga es jQuery, Popper.js, Boostrap.js -->
     <script src="assets/js/jquery-3.5.1.slim.min.js"></script>

@@ -32,7 +32,39 @@ body {
     background-color: white;
 }
 
-.btn-primary:focus, .btn-primary.focus, .btn-primary:hover{
-    color: grey;
-    background-color: grey;
+.btn-primary:hover{
+    color: black;
+    border-color: black;
+    background-color: #C70039;
+}
+
+.btn-outline-success {
+    background-color: #343a40;
+    color: red;
+    border-color: red;
+}
+
+.btn-outline-success:hover {
+    background-color: #C70039;
+    color: black;
+    border-color: black;
+}
+
+.btn-primary {
+    color: white;
+    background-color: gray;
+    border-color: red;
+
+}
+
+.btn-secondary {
+    color: white;
+    background-color: gray;
+    border-color: red;
+}
+
+.btn-secondary:hover{
+    color: black;
+    border-color: black;
+    background-color: #C70039;
 }

@@ -45,7 +45,7 @@ function dividir() {
 
 function saludar() {
     var fecha = new Date();
-    document.getElementById("saludo").innerHTML = " " + fecha;
+    document.getElementById("saludo").innerHTML = "  " + fecha;
     var tiempo = setTimeout(function() { saludar()},1000);
 }
 
